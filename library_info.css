@@ -1,0 +1,55 @@
+
+#hed {
+	padding-left:50px;
+	
+	color:white;
+	width:500px;
+	height:20px;
+	font-size:20px;
+}
+
+#nav{
+	padding-top:2px;
+	padding-left:50px;
+	font-size:25px;
+	background:yellow;
+	width:400px;
+	height:350px;
+	margin:auto;
+	border-radius:0px;
+	opacity:0px;
+   
+}
+#input-group-addon{
+	width:600px;
+	
+}
+
+#nav input{
+	margin-top:30px;
+	width:258px;
+	height:30px;
+	font-size:15px;
+	border-radius:0px;
+
+}
+#fin input{margin-top:30px;
+	width:100px;
+	height:30px;
+	border-radius:0px;
+	font-size:15px;
+    background:red;
+    color:white;
+    font-weight:bold;'
+}
+
+#fin input[type="submit"]:hover{
+	
+	background:green;
+	color:red;
+	font-weight:bold;
+}
+#note{
+	font-size:17px;
+
+}

@@ -1,0 +1,231 @@
+.main_area{
+	margin:0 auto;
+    width:1520px;
+    background:green;
+}
+/* .logo_area{
+	padding-left:2px;
+} */
+.logo{
+    padding-left:220px;
+}
+.slider_areaX{
+	padding-top:16px;
+	padding-left:500px;
+	background:#142b47;
+	height:150px;
+	border-radius:0px;
+}
+.header-top-right{
+	background:green;
+}
+/*scroll start from here*/
+
+/*scroll End here*/
+
+/*menu strart from here */
+@charset "utf-8";
+.menu{
+	Padding:0;
+	margin:0;
+	width:1520px;
+	height:40px;
+	background-color:#CCC;
+}
+.menu{
+	padding:0;
+	margin:0;
+}
+.menu ul li{
+	list-style:none;
+	float:left;
+	padding:0;
+	margin:0;
+	position:relative;
+	
+}
+.menu ul li a{
+	text-decoration:none;
+	padding:0 45px;
+	background-color:#F60;
+	color:#fff;
+	line-height:40px;
+	display:block;
+    border-right: 1px solid #000
+}
+.menu u1 li:last-child a{
+	border:0;
+}
+.menu ul li a:hover{
+	background-color:#000;
+	
+}
+.menu ul li ul{
+	visibility:hidden;
+    position:absolute;
+
+}
+.menu ul li:hover ul{
+	visibility:visible;
+}
+/* .menu ul li ul li{
+	width:160px;
+}
+.menu ul li ul li a{
+    border:0;
+}
+a.down-arrow{
+    background-image:url(../images/down-arrow.gif);
+    background-repeat:no-repeat;
+}
+ */
+/* End of menu */
+
+/* Slideshow program start here*/
+
+* {box-sizing: border-box}
+body {
+	font-family: Verdana, sans-serif; 
+	margin:0;
+	}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width:100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.9s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration:1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next, .text {font-size: 11px}
+}
+.col2{
+	width:360px;
+	float:Right;
+	background:#EAF2F8;
+	padding-left:15px;
+	
+}
+
+.slider_areaY{
+	margin:0 auto;
+    width:100%;
+	height:400px;
+	float:left;
+	background:#142b47;
+
+	
+}
+
+.slider_areaZ{
+	margin:0 auto;
+    width:100%;
+	height:80px;
+	float:left;
+	background:#34495E;
+
+	
+}
+.Copyrightpart{
+	float:left;
+	width:200px;
+	padding-left:20px;
+}
+.botton{
+	float:Right;
+	width:20px;
+	
+}
+
+	
+
+	
+
+
+
+
+
+
